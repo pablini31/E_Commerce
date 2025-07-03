@@ -1,0 +1,38 @@
+# ---- .NET & Visual Studio ----
+# Build results
+bin/
+obj/
+
+# VS temporary files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Secrets (ensure you keep real secrets outside source control)
+appsettings.*.Local.json
+appsettings.Development.json
+
+# EF Core migrations snapshots
+*MigrationsSnapshot.cs
+
+# Test results
+TestResults/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# End of file 
