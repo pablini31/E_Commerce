@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LwChM/DsYUI=",
+  "dgSpecHash": "6OMqBiHIcpU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\ECommerce.Domain.csproj",
+  "projectFilePath": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\ECommerce.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pab20\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.16\\microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
-    "C:\\Users\\pab20\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.16\\microsoft.windowsdesktop.app.ref.8.0.16.nupkg.sha512",
-    "C:\\Users\\pab20\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.16\\microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512"
+    "C:\\Users\\kenna\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.16\\microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\kenna\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.16\\microsoft.windowsdesktop.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\kenna\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.16\\microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512"
   ],
   "logs": []
 }

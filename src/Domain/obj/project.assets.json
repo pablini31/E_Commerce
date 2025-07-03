@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\pab20\\.nuget\\packages\\": {}
+    "C:\\Users\\kenna\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\ECommerce.Domain.csproj",
+      "projectUniqueName": "c:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\ECommerce.Domain.csproj",
       "projectName": "ECommerce.Domain",
-      "projectPath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\ECommerce.Domain.csproj",
-      "packagesPath": "C:\\Users\\pab20\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\obj\\",
+      "projectPath": "c:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\ECommerce.Domain.csproj",
+      "packagesPath": "C:\\Users\\kenna\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pab20\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\kenna\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

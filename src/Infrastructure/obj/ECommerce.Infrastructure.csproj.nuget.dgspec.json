@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Infrastructure\\ECommerce.Infrastructure.csproj": {}
+    "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Infrastructure\\ECommerce.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Application\\ECommerce.Application.csproj": {
+    "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Application\\ECommerce.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Application\\ECommerce.Application.csproj",
+        "projectUniqueName": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Application\\ECommerce.Application.csproj",
         "projectName": "ECommerce.Application",
-        "projectPath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Application\\ECommerce.Application.csproj",
-        "packagesPath": "C:\\Users\\pab20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Application\\obj\\",
+        "projectPath": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Application\\ECommerce.Application.csproj",
+        "packagesPath": "C:\\Users\\kenna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pab20\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kenna\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\ECommerce.Domain.csproj": {
-                "projectPath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\ECommerce.Domain.csproj"
+              "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\ECommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\ECommerce.Domain.csproj"
               }
             }
           }
@@ -81,17 +81,17 @@
         }
       }
     },
-    "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\ECommerce.Domain.csproj": {
+    "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\ECommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\ECommerce.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\ECommerce.Domain.csproj",
         "projectName": "ECommerce.Domain",
-        "projectPath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\ECommerce.Domain.csproj",
-        "packagesPath": "C:\\Users\\pab20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\ECommerce.Domain.csproj",
+        "packagesPath": "C:\\Users\\kenna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pab20\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kenna\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -154,17 +154,17 @@
         }
       }
     },
-    "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Infrastructure\\ECommerce.Infrastructure.csproj": {
+    "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Infrastructure\\ECommerce.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Infrastructure\\ECommerce.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Infrastructure\\ECommerce.Infrastructure.csproj",
         "projectName": "ECommerce.Infrastructure",
-        "projectPath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Infrastructure\\ECommerce.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\pab20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Infrastructure\\ECommerce.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\kenna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pab20\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kenna\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -176,11 +176,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Application\\ECommerce.Application.csproj": {
-                "projectPath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Application\\ECommerce.Application.csproj"
+              "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Application\\ECommerce.Application.csproj": {
+                "projectPath": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Application\\ECommerce.Application.csproj"
               },
-              "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\ECommerce.Domain.csproj": {
-                "projectPath": "C:\\Users\\pab20\\OneDrive\\Documentos\\icomerse\\src\\Domain\\ECommerce.Domain.csproj"
+              "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\ECommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\kenna\\Desktop\\E_Commerce\\src\\Domain\\ECommerce.Domain.csproj"
               }
             }
           }

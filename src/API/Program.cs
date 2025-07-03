@@ -15,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
                        "Server=(localdb)\\MSSQLLocalDB;Database=ECommerceDb;Trusted_Connection=True;";
 builder.Services.AddDbContext<CommerceDbContext>(options =>
-    options.UseSqlServer(connectionString));
+    options.UseNpgsql(connectionString));
 
 // Dependency Injection
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
