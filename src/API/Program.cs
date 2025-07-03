@@ -15,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
                        "Server=(localdb)\\MSSQLLocalDB;Database=ECommerceDb;Trusted_Connection=True;";
 builder.Services.AddDbContext<CommerceDbContext>(options =>
-    options.UseNpgsql(connectionString));
+    options.UseSqlServer(connectionString));
 
 // Dependency Injection
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
@@ -91,6 +91,34 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
+
+// Middleware para restringir acceso solo a la IP pública especificada (compatible con proxies)
+app.Use(async (context, next) =>
+{
+    var allowedIp = "187.155.101.200";
+    string? remoteIp = context.Connection.RemoteIpAddress?.ToString();
+
+    if (context.Request.Headers.ContainsKey("X-Forwarded-For"))
+    {
+        remoteIp = context.Request.Headers["X-Forwarded-For"].FirstOrDefault();
+        if (remoteIp != null && remoteIp.Contains(","))
+            remoteIp = remoteIp.Split(',')[0].Trim();
+    }
+
+    if (remoteIp != null && remoteIp.StartsWith("::ffff:"))
+        remoteIp = remoteIp.Substring(7);
+
+    // Línea de depuración: muestra la IP detectada en la respuesta
+    await context.Response.WriteAsync($"IP detectada: {remoteIp}\n");
+
+    if (remoteIp != allowedIp)
+    {
+        context.Response.StatusCode = 403;
+        await context.Response.WriteAsync("Access denied.");
+        return;
+    }
+    await next();
+});
 
 // Configure the HTTP request pipeline.
 app.UseDeveloperExceptionPage();

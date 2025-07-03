@@ -28,8 +28,12 @@ namespace ECommerce.Infrastructure.Repositories
 
         public async Task UpdateAsync(Order order)
         {
-            _context.Orders.Update(order);
             await Task.CompletedTask;
+        }
+
+        public void AddOrderItem(OrderItem item)
+        {
+            _context.OrderItems.Add(item);
         }
     }
 } 

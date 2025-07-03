@@ -45,7 +45,7 @@ namespace ECommerce.Application.Services
 
             var item = new OrderItem(dto.ProductId, dto.Quantity, dto.Price);
             order.AddItem(item);
-            await _orderRepository.UpdateAsync(order);
+            _orderRepository.AddOrderItem(item);
             await _unitOfWork.SaveChangesAsync();
         }
 

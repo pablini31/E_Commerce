@@ -21,6 +21,7 @@ namespace ECommerce.Application.Interfaces
         Task<Order?> GetByIdAsync(Guid id);
         Task AddAsync(Order order);
         Task UpdateAsync(Order order);
+        void AddOrderItem(OrderItem item);
     }
 
     public interface IUnitOfWork
